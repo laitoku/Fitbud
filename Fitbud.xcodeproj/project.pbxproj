@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16FA182D2CBF370B00184EA2 /* FitbudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182C2CBF370B00184EA2 /* FitbudApp.swift */; };
+		16FA182F2CBF370B00184EA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182E2CBF370B00184EA2 /* ContentView.swift */; };
+		16FA18312CBF370C00184EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FA18302CBF370C00184EA2 /* Assets.xcassets */; };
+		16FA18342CBF370C00184EA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FA18332CBF370C00184EA2 /* Preview Assets.xcassets */; };
+		16FA183E2CBF370D00184EA2 /* FitbudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA183D2CBF370D00184EA2 /* FitbudTests.swift */; };
+		16FA18482CBF370D00184EA2 /* FitbudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18472CBF370D00184EA2 /* FitbudUITests.swift */; };
+		16FA184A2CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16FA183A2CBF370D00184EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16FA18212CBF370B00184EA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16FA18282CBF370B00184EA2;
+			remoteInfo = Fitbud;
+		};
+		16FA18442CBF370D00184EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16FA18212CBF370B00184EA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16FA18282CBF370B00184EA2;
+			remoteInfo = Fitbud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16FA18292CBF370B00184EA2 /* Fitbud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitbud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FA182C2CBF370B00184EA2 /* FitbudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudApp.swift; sourceTree = "<group>"; };
+		16FA182E2CBF370B00184EA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16FA18302CBF370C00184EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16FA18332CBF370C00184EA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16FA18392CBF370D00184EA2 /* FitbudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FA183D2CBF370D00184EA2 /* FitbudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudTests.swift; sourceTree = "<group>"; };
+		16FA18432CBF370D00184EA2 /* FitbudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FA18472CBF370D00184EA2 /* FitbudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudUITests.swift; sourceTree = "<group>"; };
+		16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16FA18262CBF370B00184EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FA18362CBF370D00184EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FA18402CBF370D00184EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FA18202CBF370B00184EA2 = {
+			isa = PBXGroup;
+			children = (
+				16FA182B2CBF370B00184EA2 /* Fitbud */,
+				16FA183C2CBF370D00184EA2 /* FitbudTests */,
+				16FA18462CBF370D00184EA2 /* FitbudUITests */,
+				16FA182A2CBF370B00184EA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16FA182A2CBF370B00184EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16FA18292CBF370B00184EA2 /* Fitbud.app */,
+				16FA18392CBF370D00184EA2 /* FitbudTests.xctest */,
+				16FA18432CBF370D00184EA2 /* FitbudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16FA182B2CBF370B00184EA2 /* Fitbud */ = {
+			isa = PBXGroup;
+			children = (
+				16FA182C2CBF370B00184EA2 /* FitbudApp.swift */,
+				16FA182E2CBF370B00184EA2 /* ContentView.swift */,
+				16FA18302CBF370C00184EA2 /* Assets.xcassets */,
+				16FA18322CBF370C00184EA2 /* Preview Content */,
+			);
+			path = Fitbud;
+			sourceTree = "<group>";
+		};
+		16FA18322CBF370C00184EA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16FA18332CBF370C00184EA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16FA183C2CBF370D00184EA2 /* FitbudTests */ = {
+			isa = PBXGroup;
+			children = (
+				16FA183D2CBF370D00184EA2 /* FitbudTests.swift */,
+			);
+			path = FitbudTests;
+			sourceTree = "<group>";
+		};
+		16FA18462CBF370D00184EA2 /* FitbudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16FA18472CBF370D00184EA2 /* FitbudUITests.swift */,
+				16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */,
+			);
+			path = FitbudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16FA18282CBF370B00184EA2 /* Fitbud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FA184D2CBF370D00184EA2 /* Build configuration list for PBXNativeTarget "Fitbud" */;
+			buildPhases = (
+				16FA18252CBF370B00184EA2 /* Sources */,
+				16FA18262CBF370B00184EA2 /* Frameworks */,
+				16FA18272CBF370B00184EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitbud;
+			productName = Fitbud;
+			productReference = 16FA18292CBF370B00184EA2 /* Fitbud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16FA18382CBF370D00184EA2 /* FitbudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FA18502CBF370D00184EA2 /* Build configuration list for PBXNativeTarget "FitbudTests" */;
+			buildPhases = (
+				16FA18352CBF370D00184EA2 /* Sources */,
+				16FA18362CBF370D00184EA2 /* Frameworks */,
+				16FA18372CBF370D00184EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16FA183B2CBF370D00184EA2 /* PBXTargetDependency */,
+			);
+			name = FitbudTests;
+			productName = FitbudTests;
+			productReference = 16FA18392CBF370D00184EA2 /* FitbudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16FA18422CBF370D00184EA2 /* FitbudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FA18532CBF370D00184EA2 /* Build configuration list for PBXNativeTarget "FitbudUITests" */;
+			buildPhases = (
+				16FA183F2CBF370D00184EA2 /* Sources */,
+				16FA18402CBF370D00184EA2 /* Frameworks */,
+				16FA18412CBF370D00184EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16FA18452CBF370D00184EA2 /* PBXTargetDependency */,
+			);
+			name = FitbudUITests;
+			productName = FitbudUITests;
+			productReference = 16FA18432CBF370D00184EA2 /* FitbudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16FA18212CBF370B00184EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					16FA18282CBF370B00184EA2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					16FA18382CBF370D00184EA2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 16FA18282CBF370B00184EA2;
+					};
+					16FA18422CBF370D00184EA2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 16FA18282CBF370B00184EA2;
+					};
+				};
+			};
+			buildConfigurationList = 16FA18242CBF370B00184EA2 /* Build configuration list for PBXProject "Fitbud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16FA18202CBF370B00184EA2;
+			productRefGroup = 16FA182A2CBF370B00184EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16FA18282CBF370B00184EA2 /* Fitbud */,
+				16FA18382CBF370D00184EA2 /* FitbudTests */,
+				16FA18422CBF370D00184EA2 /* FitbudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16FA18272CBF370B00184EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA18342CBF370C00184EA2 /* Preview Assets.xcassets in Resources */,
+				16FA18312CBF370C00184EA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FA18372CBF370D00184EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FA18412CBF370D00184EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16FA18252CBF370B00184EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA182F2CBF370B00184EA2 /* ContentView.swift in Sources */,
+				16FA182D2CBF370B00184EA2 /* FitbudApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FA18352CBF370D00184EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA183E2CBF370D00184EA2 /* FitbudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FA183F2CBF370D00184EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA184A2CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift in Sources */,
+				16FA18482CBF370D00184EA2 /* FitbudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16FA183B2CBF370D00184EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16FA18282CBF370B00184EA2 /* Fitbud */;
+			targetProxy = 16FA183A2CBF370D00184EA2 /* PBXContainerItemProxy */;
+		};
+		16FA18452CBF370D00184EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16FA18282CBF370B00184EA2 /* Fitbud */;
+			targetProxy = 16FA18442CBF370D00184EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16FA184B2CBF370D00184EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16FA184C2CBF370D00184EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16FA184E2CBF370D00184EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitbud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.Fitbud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16FA184F2CBF370D00184EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitbud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.Fitbud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16FA18512CBF370D00184EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.FitbudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitbud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitbud";
+			};
+			name = Debug;
+		};
+		16FA18522CBF370D00184EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.FitbudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitbud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitbud";
+			};
+			name = Release;
+		};
+		16FA18542CBF370D00184EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.FitbudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitbud;
+			};
+			name = Debug;
+		};
+		16FA18552CBF370D00184EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.FitbudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitbud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16FA18242CBF370B00184EA2 /* Build configuration list for PBXProject "Fitbud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FA184B2CBF370D00184EA2 /* Debug */,
+				16FA184C2CBF370D00184EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FA184D2CBF370D00184EA2 /* Build configuration list for PBXNativeTarget "Fitbud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FA184E2CBF370D00184EA2 /* Debug */,
+				16FA184F2CBF370D00184EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FA18502CBF370D00184EA2 /* Build configuration list for PBXNativeTarget "FitbudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FA18512CBF370D00184EA2 /* Debug */,
+				16FA18522CBF370D00184EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FA18532CBF370D00184EA2 /* Build configuration list for PBXNativeTarget "FitbudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FA18542CBF370D00184EA2 /* Debug */,
+				16FA18552CBF370D00184EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16FA18212CBF370B00184EA2 /* Project object */;
+}
