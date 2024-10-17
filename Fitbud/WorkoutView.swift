@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WorkoutView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Fitbuds")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    WorkoutView()
 }
