@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16E34CF42CC70BF200CCD310 /* WCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF32CC70BF200CCD310 /* WCalendarView.swift */; };
+		16E34CF62CC7252300CCD310 /* DailySets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF52CC7252300CCD310 /* DailySets.swift */; };
+		16E34CF82CC72C3700CCD310 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF72CC72C3700CCD310 /* ScheduleData.swift */; };
+		16E34CFA2CC7304E00CCD310 /* Scheduled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF92CC7304E00CCD310 /* Scheduled.swift */; };
+		16E34CFC2CC9C84000CCD310 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CFB2CC9C84000CCD310 /* Workout.swift */; };
+		16E34CFE2CC9D72300CCD310 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CFD2CC9D72300CCD310 /* HomeView.swift */; };
 		16FA182D2CBF370B00184EA2 /* FitbudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182C2CBF370B00184EA2 /* FitbudApp.swift */; };
-		16FA182F2CBF370B00184EA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182E2CBF370B00184EA2 /* ContentView.swift */; };
+		16FA182F2CBF370B00184EA2 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182E2CBF370B00184EA2 /* WorkoutView.swift */; };
 		16FA18312CBF370C00184EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FA18302CBF370C00184EA2 /* Assets.xcassets */; };
 		16FA18342CBF370C00184EA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FA18332CBF370C00184EA2 /* Preview Assets.xcassets */; };
 		16FA183E2CBF370D00184EA2 /* FitbudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA183D2CBF370D00184EA2 /* FitbudTests.swift */; };
 		16FA18482CBF370D00184EA2 /* FitbudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18472CBF370D00184EA2 /* FitbudUITests.swift */; };
 		16FA184A2CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */; };
+		16FA18582CBF406000184EA2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18572CBF406000184EA2 /* Theme.swift */; };
+		16FA185E2CBF986000184EA2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA185D2CBF986000184EA2 /* MainView.swift */; };
+		16FA18642CC7055D00184EA2 /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 16FA18632CC7055D00184EA2 /* HorizonCalendar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16E34CF32CC70BF200CCD310 /* WCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCalendarView.swift; sourceTree = "<group>"; };
+		16E34CF52CC7252300CCD310 /* DailySets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySets.swift; sourceTree = "<group>"; };
+		16E34CF72CC72C3700CCD310 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		16E34CF92CC7304E00CCD310 /* Scheduled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduled.swift; sourceTree = "<group>"; };
+		16E34CFB2CC9C84000CCD310 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		16E34CFD2CC9D72300CCD310 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		16FA18292CBF370B00184EA2 /* Fitbud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitbud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FA182C2CBF370B00184EA2 /* FitbudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudApp.swift; sourceTree = "<group>"; };
-		16FA182E2CBF370B00184EA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16FA182E2CBF370B00184EA2 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		16FA18302CBF370C00184EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16FA18332CBF370C00184EA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16FA18392CBF370D00184EA2 /* FitbudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,8 @@
 		16FA18432CBF370D00184EA2 /* FitbudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FA18472CBF370D00184EA2 /* FitbudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudUITests.swift; sourceTree = "<group>"; };
 		16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16FA18572CBF406000184EA2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		16FA185D2CBF986000184EA2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FA18642CC7055D00184EA2 /* HorizonCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +112,14 @@
 		16FA182B2CBF370B00184EA2 /* Fitbud */ = {
 			isa = PBXGroup;
 			children = (
+				16FA18562CBF403C00184EA2 /* Models */,
 				16FA182C2CBF370B00184EA2 /* FitbudApp.swift */,
-				16FA182E2CBF370B00184EA2 /* ContentView.swift */,
+				16FA182E2CBF370B00184EA2 /* WorkoutView.swift */,
 				16FA18302CBF370C00184EA2 /* Assets.xcassets */,
 				16FA18322CBF370C00184EA2 /* Preview Content */,
+				16FA185D2CBF986000184EA2 /* MainView.swift */,
+				16E34CFD2CC9D72300CCD310 /* HomeView.swift */,
+				16E34CF32CC70BF200CCD310 /* WCalendarView.swift */,
 			);
 			path = Fitbud;
 			sourceTree = "<group>";
@@ -127,6 +149,18 @@
 			path = FitbudUITests;
 			sourceTree = "<group>";
 		};
+		16FA18562CBF403C00184EA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16FA18572CBF406000184EA2 /* Theme.swift */,
+				16E34CF52CC7252300CCD310 /* DailySets.swift */,
+				16E34CF72CC72C3700CCD310 /* ScheduleData.swift */,
+				16E34CF92CC7304E00CCD310 /* Scheduled.swift */,
+				16E34CFB2CC9C84000CCD310 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +177,9 @@
 			dependencies = (
 			);
 			name = Fitbud;
+			packageProductDependencies = (
+				16FA18632CC7055D00184EA2 /* HorizonCalendar */,
+			);
 			productName = Fitbud;
 			productReference = 16FA18292CBF370B00184EA2 /* Fitbud.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 16FA18202CBF370B00184EA2;
+			packageReferences = (
+				16FA18622CC7055D00184EA2 /* XCRemoteSwiftPackageReference "HorizonCalendar" */,
+			);
 			productRefGroup = 16FA182A2CBF370B00184EA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FA182F2CBF370B00184EA2 /* ContentView.swift in Sources */,
+				16E34CF42CC70BF200CCD310 /* WCalendarView.swift in Sources */,
+				16FA18582CBF406000184EA2 /* Theme.swift in Sources */,
+				16FA182F2CBF370B00184EA2 /* WorkoutView.swift in Sources */,
+				16E34CFE2CC9D72300CCD310 /* HomeView.swift in Sources */,
+				16E34CFA2CC7304E00CCD310 /* Scheduled.swift in Sources */,
+				16E34CF82CC72C3700CCD310 /* ScheduleData.swift in Sources */,
+				16E34CFC2CC9C84000CCD310 /* Workout.swift in Sources */,
+				16FA185E2CBF986000184EA2 /* MainView.swift in Sources */,
 				16FA182D2CBF370B00184EA2 /* FitbudApp.swift in Sources */,
+				16E34CF62CC7252300CCD310 /* DailySets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16FA18622CC7055D00184EA2 /* XCRemoteSwiftPackageReference "HorizonCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/HorizonCalendar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16FA18632CC7055D00184EA2 /* HorizonCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16FA18622CC7055D00184EA2 /* XCRemoteSwiftPackageReference "HorizonCalendar" */;
+			productName = HorizonCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 16FA18212CBF370B00184EA2 /* Project object */;
 }

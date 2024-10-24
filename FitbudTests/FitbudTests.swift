@@ -25,6 +25,14 @@ final class FitbudTests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
+    
+    func testScheduled() throws {
+        let result = Scheduled(date: Date(timeIntervalSince1970: 1729633731))
+        let result2 = Scheduled(date: Calendar.current.date(from: DateComponents(year: 2024, month: 11, day: 23))!)
+        
+        XCTAssertTrue(result.isEmpty, "There are no workouts today.")
+        XCTAssertFalse(result2.isEmpty, "There is a workout today.")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
