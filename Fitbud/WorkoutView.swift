@@ -8,75 +8,78 @@
 import SwiftUI
 
 struct WorkoutView: View {
-    @State var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    @State var startDate = Date()
-    @State private var currentDate = Date()
-    @State var started = false
+    @State private var showSheet = false
+    @State private var randomImageIndex: Int = 1
+    @State private var image: String = ""
+    @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
         VStack {
-            var time = Int(currentDate.timeIntervalSince(startDate))
-            if started {
-                Text("\(time)")
-                    .onReceive(timer) { input in
-                        currentDate = input
-                        if time >= 15 {
-                            self.timer.upstream.connect().cancel()
-                            started = false
-    //                                            self.startDate = Date()
-    //                        timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-                        }
-                    }
-            }
-            
-            ProgressView(value: Float(time), total: 15)
-            HStack {
-                VStack(alignment: .leading) {
-                    Text("Seconds Elapsed")
-                        .font(.caption)
-                    Label("300", systemImage: "hourglass.tophalf.fill")
-                }
-                Spacer()
-                VStack(alignment: .trailing) {
-                    Text("Seconds Remaining")
-                        .font(.caption)
-                    Label("600", systemImage: "hourglass.bottomhalf.fill")
-                }
-            }
-            
-            RoundedRectangle(cornerRadius: 25.0)
-                .fill(.white)
-                .shadow(radius: 5, x: 2)
-                .padding(.vertical, 20)
-            
-            Gauge(value: 0.2, in: 0...1) {
-                /*@START_MENU_TOKEN@*/Text("Label")/*@END_MENU_TOKEN@*/
-            }
             
             ZStack {
-                Circle()
+                RoundedRectangle(cornerRadius: 25.0)
                     .fill(.white)
-                    .strokeBorder(.red, lineWidth: 7)
-                    .shadow(color: .gray, radius: 1)
-//                Text("Timer Here")
-                Button(started ? "Stop" : "Start") {
-                    started.toggle()
-                    startDate = Date()
-                    time = 0
-                }
-                if started {
-                    @State var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-                }
-            }.padding()
-
-            HStack {
-                Text("Speaker 1 of 3")
-                Spacer()
-                Button(action: {}) {
-                    Image(systemName: "forward.fill")
-                }
+                    .shadow(radius: 5, x: 2)
+                .padding(.vertical, 20)
+                Image(image).resizable().aspectRatio(contentMode: .fit)
             }
-        }.padding()
+            Text("Tap exercise to see visual")
+            ZStack{
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill(.white)
+                    .shadow(radius: 5, x: 2)
+                    .padding(.vertical, 20)
+                List(Scheduled(date: Date()), id: \.description) { set in
+                    VStack {
+                        Text("Title: \(set.title)")
+                        Text("Sets: \(set.sets)")
+                        Text("Reps: \(set.reps)")
+                        Text("Description: \(set.description)")
+                        
+                    }.onTapGesture {
+                        image = set.title
+                        
+                    }
+                }.frame(height: UIScreen.main.bounds.height / 3).cornerRadius(25)
+            }
+           
+            
+            ZStack {
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill(.white)
+                    .shadow(radius: 5, x: 2)
+                    .frame(height: UIScreen.main.bounds.height / 12)
+                
+                Button("Finish!") {
+                    UpdateMetrics()
+                    
+                    randomImageIndex = Int.random(in: 1...10)
+                    UserDefaults.standard.set(randomImageIndex, forKey: "Food")
+                    
+                    showSheet = true
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }
+                .sheet(isPresented: $showSheet) {
+                    VStack {
+                        Text("Get!")
+                            .font(.headline)
+                            .padding()
+                        
+                        Image("image\(randomImageIndex)")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 200, height: 200)
+                    }
+                    .padding()
+                }
+                .id(showSheet)
+            }
+            .padding(.vertical)
+        }
+        .padding()
     }
 }
 

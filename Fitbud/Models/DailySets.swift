@@ -7,14 +7,17 @@
 
 import Foundation
 
-struct DailySets {
-    var sets: Array<Set>
+struct DailySets: Codable {
+    var workout: [Exercise]
     var date: Date
     
-    struct Set {
+    struct Exercise: Codable {
+        var id: Int
+        var title: String
         var description: String
+        var sets: Int
         var reps: Int
-        var time: Int
+        var total: Int
     }
 }
 

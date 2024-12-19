@@ -12,6 +12,7 @@ import HorizonCalendar
 struct WCalendarView: View {
     @State var selectedDate: Date? = Date()
     @State var showSheet: Bool = false
+    
     var body: some View {
         
         let calendar = Calendar.current
@@ -32,7 +33,7 @@ struct WCalendarView: View {
                 .days { [selectedDate] day in
                     let date = calendar.date(from: day.components)
                     let isSelected = calendar.isDate(date!, inSameDayAs: selectedDate!)
-                    let borderColor: UIColor = isSelected ? .lightGray : .clear
+                    let borderColor: UIColor = isSelected ? .red : .clear
                     
                     Text("\(day.day)")
                       .font(.system(size: 18))
@@ -51,11 +52,15 @@ struct WCalendarView: View {
             if !Scheduled(date: selectedDate!).isEmpty {
                 List(Scheduled(date: selectedDate!), id: \.description) { set in
                     VStack {
-                        Text("Description: \(set.description)")
+                        Text("\(set.title)").font(.title3)
+                        Text("Sets: \(set.sets)").font(.subheadline)
                         Text("Reps: \(set.reps)")
-                        Text("Time: \(set.time)")
+                        ScrollView {
+                            Text("Description: \(set.description)")
+                        }.frame(height: 80)
+                        
                     }
-                }.frame(height: UIScreen.main.bounds.height / 3).cornerRadius(25)
+                }.frame(height: UIScreen.main.bounds.height / 3).background(.red.opacity(0.9)).scrollContentBackground(.hidden).cornerRadius(25)
             } else {
                 Text("No Workout Today!")
                     .frame(height: UIScreen.main.bounds.height / 6)

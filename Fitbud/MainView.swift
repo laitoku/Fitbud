@@ -13,6 +13,12 @@ struct MainView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var showWorkoutView = false
     
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.white
+        UITabBar.appearance().unselectedItemTintColor = UIColor.lightGray
+        UITabBar.appearance().tintColor = UIColor.white 
+    }
+    
     var body: some View {
         NavigationStack{
             TabView(selection: $selectedTab) {
@@ -21,8 +27,8 @@ struct MainView: View {
                 .tabItem { Label("Home", systemImage: "house.fill") }.tag(1)
                 
                 WCalendarView().tabItem { Label("Calendar", systemImage: "calendar") }.tag(2)
-                Text("Tab Content 3").tabItem { Label("Milestones", systemImage: "star") }.tag(3)
-                Text("Tab Content 4").tabItem { Label("Settings", systemImage: "gear") }.tag(4)
+                MilestonesView().tabItem { Label("Milestones", systemImage: "star") }.tag(3)
+                MetricsView().tabItem { Label("Metrics", systemImage: "rectangle.split.2x2") }.tag(4)
             }
         }
         

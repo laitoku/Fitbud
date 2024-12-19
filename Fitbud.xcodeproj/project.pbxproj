@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B7F4102CED5FAE0074D857 /* PushUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F40F2CED5FAE0074D857 /* PushUp.swift */; };
+		16B7F4142CED68250074D857 /* Exercise.db in Resources */ = {isa = PBXBuildFile; fileRef = 16B7F4132CED68250074D857 /* Exercise.db */; };
+		16B7F4162CED68E40074D857 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4152CED68E40074D857 /* DBhelper.swift */; };
+		16B7F41B2CF9A8210074D857 /* credits in Resources */ = {isa = PBXBuildFile; fileRef = 16B7F41A2CF9A8210074D857 /* credits */; };
+		16B7F4212CF9B91D0074D857 /* PetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4202CF9B91D0074D857 /* PetScene.swift */; };
+		16B7F4232CF9B9500074D857 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4222CF9B9500074D857 /* PetView.swift */; };
+		16B7F4252CF9C30A0074D857 /* SkipDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4242CF9C30A0074D857 /* SkipDay.swift */; };
+		16B7F4272D0F93090074D857 /* MilestonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4262D0F93090074D857 /* MilestonesView.swift */; };
+		16B7F4292D0F93160074D857 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4282D0F93160074D857 /* MetricsView.swift */; };
+		16B7F42B2D0F98EE0074D857 /* MetricLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F42A2D0F98EE0074D857 /* MetricLine.swift */; };
+		16B7F42D2D0FDBB80074D857 /* UpdateMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F42C2D0FDBB80074D857 /* UpdateMetrics.swift */; };
+		16B7F42F2D0FEEEB0074D857 /* SendNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F42E2D0FEEEB0074D857 /* SendNotification.swift */; };
+		16B7F4342D10E67E0074D857 /* PetScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 16B7F4332D10E67E0074D857 /* PetScene.sks */; };
 		16E34CF42CC70BF200CCD310 /* WCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF32CC70BF200CCD310 /* WCalendarView.swift */; };
 		16E34CF62CC7252300CCD310 /* DailySets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF52CC7252300CCD310 /* DailySets.swift */; };
-		16E34CF82CC72C3700CCD310 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF72CC72C3700CCD310 /* ScheduleData.swift */; };
+		16E34CF82CC72C3700CCD310 /* GenSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF72CC72C3700CCD310 /* GenSchedule.swift */; };
 		16E34CFA2CC7304E00CCD310 /* Scheduled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CF92CC7304E00CCD310 /* Scheduled.swift */; };
-		16E34CFC2CC9C84000CCD310 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CFB2CC9C84000CCD310 /* Workout.swift */; };
 		16E34CFE2CC9D72300CCD310 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E34CFD2CC9D72300CCD310 /* HomeView.swift */; };
 		16FA182D2CBF370B00184EA2 /* FitbudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182C2CBF370B00184EA2 /* FitbudApp.swift */; };
 		16FA182F2CBF370B00184EA2 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA182E2CBF370B00184EA2 /* WorkoutView.swift */; };
@@ -20,7 +32,6 @@
 		16FA183E2CBF370D00184EA2 /* FitbudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA183D2CBF370D00184EA2 /* FitbudTests.swift */; };
 		16FA18482CBF370D00184EA2 /* FitbudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18472CBF370D00184EA2 /* FitbudUITests.swift */; };
 		16FA184A2CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */; };
-		16FA18582CBF406000184EA2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA18572CBF406000184EA2 /* Theme.swift */; };
 		16FA185E2CBF986000184EA2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA185D2CBF986000184EA2 /* MainView.swift */; };
 		16FA18642CC7055D00184EA2 /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 16FA18632CC7055D00184EA2 /* HorizonCalendar */; };
 /* End PBXBuildFile section */
@@ -43,11 +54,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B7F40F2CED5FAE0074D857 /* PushUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUp.swift; sourceTree = "<group>"; };
+		16B7F4132CED68250074D857 /* Exercise.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exercise.db; sourceTree = "<group>"; };
+		16B7F4152CED68E40074D857 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
+		16B7F41A2CF9A8210074D857 /* credits */ = {isa = PBXFileReference; lastKnownFileType = text; path = credits; sourceTree = "<group>"; };
+		16B7F4202CF9B91D0074D857 /* PetScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetScene.swift; sourceTree = "<group>"; };
+		16B7F4222CF9B9500074D857 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		16B7F4242CF9C30A0074D857 /* SkipDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipDay.swift; sourceTree = "<group>"; };
+		16B7F4262D0F93090074D857 /* MilestonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestonesView.swift; sourceTree = "<group>"; };
+		16B7F4282D0F93160074D857 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		16B7F42A2D0F98EE0074D857 /* MetricLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricLine.swift; sourceTree = "<group>"; };
+		16B7F42C2D0FDBB80074D857 /* UpdateMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMetrics.swift; sourceTree = "<group>"; };
+		16B7F42E2D0FEEEB0074D857 /* SendNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNotification.swift; sourceTree = "<group>"; };
+		16B7F4302D0FFAD20074D857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16B7F4332D10E67E0074D857 /* PetScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PetScene.sks; sourceTree = "<group>"; };
 		16E34CF32CC70BF200CCD310 /* WCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCalendarView.swift; sourceTree = "<group>"; };
 		16E34CF52CC7252300CCD310 /* DailySets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySets.swift; sourceTree = "<group>"; };
-		16E34CF72CC72C3700CCD310 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		16E34CF72CC72C3700CCD310 /* GenSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenSchedule.swift; sourceTree = "<group>"; };
 		16E34CF92CC7304E00CCD310 /* Scheduled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduled.swift; sourceTree = "<group>"; };
-		16E34CFB2CC9C84000CCD310 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		16E34CFD2CC9D72300CCD310 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		16FA18292CBF370B00184EA2 /* Fitbud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitbud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FA182C2CBF370B00184EA2 /* FitbudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudApp.swift; sourceTree = "<group>"; };
@@ -59,7 +83,6 @@
 		16FA18432CBF370D00184EA2 /* FitbudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FA18472CBF370D00184EA2 /* FitbudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudUITests.swift; sourceTree = "<group>"; };
 		16FA18492CBF370D00184EA2 /* FitbudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbudUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		16FA18572CBF406000184EA2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		16FA185D2CBF986000184EA2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B7F40B2CED5F3A0074D857 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				16B7F40F2CED5FAE0074D857 /* PushUp.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
 		16FA18202CBF370B00184EA2 = {
 			isa = PBXGroup;
 			children = (
@@ -112,14 +143,22 @@
 		16FA182B2CBF370B00184EA2 /* Fitbud */ = {
 			isa = PBXGroup;
 			children = (
+				16B7F4302D0FFAD20074D857 /* Info.plist */,
 				16FA18562CBF403C00184EA2 /* Models */,
 				16FA182C2CBF370B00184EA2 /* FitbudApp.swift */,
 				16FA182E2CBF370B00184EA2 /* WorkoutView.swift */,
+				16B7F4202CF9B91D0074D857 /* PetScene.swift */,
+				16B7F4222CF9B9500074D857 /* PetView.swift */,
+				16B7F4332D10E67E0074D857 /* PetScene.sks */,
 				16FA18302CBF370C00184EA2 /* Assets.xcassets */,
 				16FA18322CBF370C00184EA2 /* Preview Content */,
 				16FA185D2CBF986000184EA2 /* MainView.swift */,
+				16B7F4262D0F93090074D857 /* MilestonesView.swift */,
+				16B7F4282D0F93160074D857 /* MetricsView.swift */,
+				16B7F42A2D0F98EE0074D857 /* MetricLine.swift */,
 				16E34CFD2CC9D72300CCD310 /* HomeView.swift */,
 				16E34CF32CC70BF200CCD310 /* WCalendarView.swift */,
+				16B7F41A2CF9A8210074D857 /* credits */,
 			);
 			path = Fitbud;
 			sourceTree = "<group>";
@@ -152,11 +191,15 @@
 		16FA18562CBF403C00184EA2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				16FA18572CBF406000184EA2 /* Theme.swift */,
+				16B7F4132CED68250074D857 /* Exercise.db */,
+				16B7F40B2CED5F3A0074D857 /* Exercises */,
 				16E34CF52CC7252300CCD310 /* DailySets.swift */,
-				16E34CF72CC72C3700CCD310 /* ScheduleData.swift */,
+				16E34CF72CC72C3700CCD310 /* GenSchedule.swift */,
 				16E34CF92CC7304E00CCD310 /* Scheduled.swift */,
-				16E34CFB2CC9C84000CCD310 /* Workout.swift */,
+				16B7F4152CED68E40074D857 /* DBhelper.swift */,
+				16B7F4242CF9C30A0074D857 /* SkipDay.swift */,
+				16B7F42C2D0FDBB80074D857 /* UpdateMetrics.swift */,
+				16B7F42E2D0FEEEB0074D857 /* SendNotification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -272,6 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16FA18342CBF370C00184EA2 /* Preview Assets.xcassets in Resources */,
+				16B7F41B2CF9A8210074D857 /* credits in Resources */,
+				16B7F4342D10E67E0074D857 /* PetScene.sks in Resources */,
+				16B7F4142CED68250074D857 /* Exercise.db in Resources */,
 				16FA18312CBF370C00184EA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,15 +344,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E34CF42CC70BF200CCD310 /* WCalendarView.swift in Sources */,
-				16FA18582CBF406000184EA2 /* Theme.swift in Sources */,
 				16FA182F2CBF370B00184EA2 /* WorkoutView.swift in Sources */,
+				16B7F42D2D0FDBB80074D857 /* UpdateMetrics.swift in Sources */,
+				16B7F4292D0F93160074D857 /* MetricsView.swift in Sources */,
+				16B7F4162CED68E40074D857 /* DBhelper.swift in Sources */,
 				16E34CFE2CC9D72300CCD310 /* HomeView.swift in Sources */,
 				16E34CFA2CC7304E00CCD310 /* Scheduled.swift in Sources */,
-				16E34CF82CC72C3700CCD310 /* ScheduleData.swift in Sources */,
-				16E34CFC2CC9C84000CCD310 /* Workout.swift in Sources */,
+				16E34CF82CC72C3700CCD310 /* GenSchedule.swift in Sources */,
+				16B7F4252CF9C30A0074D857 /* SkipDay.swift in Sources */,
 				16FA185E2CBF986000184EA2 /* MainView.swift in Sources */,
 				16FA182D2CBF370B00184EA2 /* FitbudApp.swift in Sources */,
 				16E34CF62CC7252300CCD310 /* DailySets.swift in Sources */,
+				16B7F4212CF9B91D0074D857 /* PetScene.swift in Sources */,
+				16B7F4272D0F93090074D857 /* MilestonesView.swift in Sources */,
+				16B7F4232CF9B9500074D857 /* PetView.swift in Sources */,
+				16B7F4102CED5FAE0074D857 /* PushUp.swift in Sources */,
+				16B7F42F2D0FEEEB0074D857 /* SendNotification.swift in Sources */,
+				16B7F42B2D0F98EE0074D857 /* MetricLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +526,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fitbud/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitbud/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -500,6 +555,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fitbud/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitbud/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
