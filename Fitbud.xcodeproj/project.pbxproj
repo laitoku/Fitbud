@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16B7F4102CED5FAE0074D857 /* PushUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F40F2CED5FAE0074D857 /* PushUp.swift */; };
 		16B7F4142CED68250074D857 /* Exercise.db in Resources */ = {isa = PBXBuildFile; fileRef = 16B7F4132CED68250074D857 /* Exercise.db */; };
 		16B7F4162CED68E40074D857 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7F4152CED68E40074D857 /* DBhelper.swift */; };
 		16B7F41B2CF9A8210074D857 /* credits in Resources */ = {isa = PBXBuildFile; fileRef = 16B7F41A2CF9A8210074D857 /* credits */; };
@@ -54,7 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16B7F40F2CED5FAE0074D857 /* PushUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUp.swift; sourceTree = "<group>"; };
 		16B7F4132CED68250074D857 /* Exercise.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exercise.db; sourceTree = "<group>"; };
 		16B7F4152CED68E40074D857 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
 		16B7F41A2CF9A8210074D857 /* credits */ = {isa = PBXFileReference; lastKnownFileType = text; path = credits; sourceTree = "<group>"; };
@@ -112,14 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16B7F40B2CED5F3A0074D857 /* Exercises */ = {
-			isa = PBXGroup;
-			children = (
-				16B7F40F2CED5FAE0074D857 /* PushUp.swift */,
-			);
-			path = Exercises;
-			sourceTree = "<group>";
-		};
 		16FA18202CBF370B00184EA2 = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				16B7F4132CED68250074D857 /* Exercise.db */,
-				16B7F40B2CED5F3A0074D857 /* Exercises */,
 				16E34CF52CC7252300CCD310 /* DailySets.swift */,
 				16E34CF72CC72C3700CCD310 /* GenSchedule.swift */,
 				16E34CF92CC7304E00CCD310 /* Scheduled.swift */,
@@ -358,7 +347,6 @@
 				16B7F4212CF9B91D0074D857 /* PetScene.swift in Sources */,
 				16B7F4272D0F93090074D857 /* MilestonesView.swift in Sources */,
 				16B7F4232CF9B9500074D857 /* PetView.swift in Sources */,
-				16B7F4102CED5FAE0074D857 /* PushUp.swift in Sources */,
 				16B7F42F2D0FEEEB0074D857 /* SendNotification.swift in Sources */,
 				16B7F42B2D0F98EE0074D857 /* MetricLine.swift in Sources */,
 			);

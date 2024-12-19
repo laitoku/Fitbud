@@ -51,10 +51,6 @@ func UpdateMetrics() {
     completedDays += 1
     UserDefaults.standard.set(completedDays, forKey: "completedDays")
     
-    var missedDays: Int = UserDefaults.standard.integer(forKey: "missedDays")
-    missedDays += 1
-    UserDefaults.standard.set(missedDays, forKey: "missedDays")
-    
     UserDefaults.standard.set(true, forKey: "dayComplete")
     UserDefaults.standard.set(Date(), forKey: "day")
     
